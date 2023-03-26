@@ -1,11 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'feather-icons/dist/feather.min.js';
 import './assets/css/line-awesome.css';
+import Router from './router';
 
 function App() {
   return (
-    <div className="App">
-      <i class="lab la-youtube-square"></i>
-    </div>
+    <>
+      <Router />
+    </>
   );
 }
 
